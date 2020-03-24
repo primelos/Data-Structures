@@ -22,3 +22,5 @@ class Queue:
 
     def len(self):
         return self.size
+        #or return len(self.storage) if you comment out self.size = 0
+        # on line 8
